@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contacto</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="normalize.css">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Angel Márquez</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="index.html">Inicio</a>
+        <a class="nav-link" href="sobre_mi.html">Sobre Mi</a>
+        <a class="nav-link active" href="contacto.html">Contacto</a>
+        <a class="nav-link" href="redes.html">Redes</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="container py-5">
+
+    <div class="text-center mb-5">
+        <h1 class="fw-bold">Contacto</h1>
+        <p class="text-secondary">¿Tienes un proyecto? Hablemos.</p>
+    </div>
+
+    <div class="row justify-content-center align-items-center g-5">
+
+        <div class="col-md-5">
+            <h3 class="mb-3">Información</h3>
+            <p class="text-secondary">
+                Puedes contactarme para desarrollo web, aplicaciones o proyectos e-commerce.
+            </p>
+
+            <p><strong>Email:</strong> marquezsr0@gmail.com</p>
+            <p><strong>Ubicación:</strong> CDMX, México</p>
+
+            <a href="redes.html" class="btn btn-outline-info mt-3">
+                Redes
+            </a>
+        </div>
+
+        <div class="col-md-6">
+            <form class="p-4 rounded bg-body-secondary shadow">
+
+                <div class="row g-3">
+
+                    <div class="col-md-6">
+                        <label class="form-label">Nombre</label>
+                        <input type="text" class="form-control" placeholder="Tu nombre">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Teléfono</label>
+                        <input type="number" class="form-control" placeholder="Tu número">
+                    </div>
+
+                    <div class="col-12">
+                        <label class="form-label">Correo</label>
+                        <input type="email" class="form-control" placeholder="Tu correo">
+                    </div>
+
+                    <div class="col-12">
+                        <label class="form-label">Mensaje</label>
+                        <textarea class="form-control" rows="4"></textarea>
+                    </div>
+
+                </div>
+
+                <div class="text-end mt-3">
+                    <button class="btn btn-info">Enviar</button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+</main>
+
+<footer class="text-center py-4 text-secondary">
+    ©Todos los derechos reservados. Ángel Márquez
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
